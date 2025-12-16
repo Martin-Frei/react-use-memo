@@ -32,17 +32,17 @@ export default function Ssortproducts() {
     return productsCopy;
   }, [products, sortType]); // rerender when API send new data or sortType changes
 
-  
+
   // useEffect runs on load or when the dependencies change
   // useMemo remeber calculation result unless dependencies change
 
   return (
     <div className="p-10 bg-gray-200">
-      <h1>Dorted Products</h1>
+      <h1>Sorted Products</h1>
 
       <div>
-        <button onClick={() => setSorttype("low") } className="border border-amber-200 rounded ">Low to High</button>
-        <button onClick={() => setSorttype("high")}>High to Low</button>
+        <button onClick={() => setSorttype("low") } className="border border-red-700 rounded m-5 p-3">Low to High</button>
+        <button onClick={() => setSorttype("high")} className="border border-red-700 rounded m-5 p-3">High to Low</button>
       </div>
 
       <div className="grid grid-cols-4 gap-8">
