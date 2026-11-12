@@ -4,11 +4,11 @@ A React application demonstrating the power of `useMemo` hook for performance op
 
 ## 🚀 Live Demo
 
-[View Live Demo](#) <!-- Füge hier später deinen GitHub Pages Link ein -->
+**[View Live Demo](https://martin-frei.github.io/react-use-memo/)**
 
 ## 📸 Screenshot
 
-![Product Sorter](screenshot/main.png)
+![Product Sorter](screenshots/main.png)
 
 ## 🎯 Features
 
